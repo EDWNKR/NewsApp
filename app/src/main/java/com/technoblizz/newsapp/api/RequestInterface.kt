@@ -21,5 +21,4 @@ interface RequestInterface {
         @Query("pageSize") pagesize: Int?
     ): Observable<ModelNews>
 
-
 }
