@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity(), MainActivityPresenter.View {
         initViews()
 
         presenter?.getEverything("technology")
-
     }
 
     override fun onSuccessGetNews(articleList: List<Article>) {
